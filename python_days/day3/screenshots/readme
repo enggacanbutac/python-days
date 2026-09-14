@@ -1,1 +1,49 @@
+# 🌦️ Weather Data Analysis
 
+## 📌 Project Overview
+
+This project focuses on analyzing and cleaning weather data using
+Python and Pandas.
+
+The dataset contains information about weather conditions such as
+temperature, humidity, rainfall, wind speed, city, and weather
+conditions.
+
+The main goal of this project is to clean the dataset, convert
+incorrect data types, and prepare the data for further analysis
+and visualization.
+
+---
+
+## 🎯 Objectives
+
+- Clean and prepare the weather dataset
+- Identify incorrect data types
+- Convert numerical columns into appropriate data types
+- Handle missing or invalid values
+- Explore weather patterns
+- Prepare the dataset for analysis and visualization
+
+---
+
+## 📊 Dataset Columns
+
+| Column | Description |
+|---|---|
+| `Weather_Date` | Date of the weather record |
+| `City` | City where the weather was recorded |
+| `Temperature_C` | Temperature in Celsius |
+| `Humidity_Percent` | Humidity percentage |
+| `Rainfall_mm` | Rainfall measurement in millimeters |
+| `Wind_Speed_kmh` | Wind speed in kilometers per hour |
+| `Weather_Condition` | General weather condition |
+
+---
+
+## 🧹 Data Cleaning
+
+During the data cleaning process, the data types of the columns
+were checked using:
+
+```python
+data.dtypes
